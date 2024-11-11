@@ -12,7 +12,7 @@ import UserIcon from "../assets/user.svg";
 export default function NavBar() {
     const router = usePathname();
 
-    if (router !== "/") {
+    if (router !== "/auth") {
         return (
             <div className="w-full h-8 fixed bottom-0 text-center bg-inherit border-t">
                 <nav className="container mx-auto relative">
